@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <style>
+        /* Center the questions and heading */
+        body {
+            text-align: center;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+        li {
+            margin-bottom: 20px; /* Add some space between questions */
+        }
+    </style>
+</head>
+<body>
+    <h1>Quiz Questions</h1>
+    <form action="/submit" method="post">
+        <ul>
+            {% for question in quiz_questions %}
+            <li>
+                <h3>{{ question['question'] }}</h3> <!-- Display the question -->
+                <ul>
+                    {% for option in question['options'] %}
+                    <li>
+                        <label>
+                            <input type="checkbox" name="answer_{{ question['id'] }}[]" value="{{ option }}">{{ option }}
+                        </label>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </li>
+            {% endfor %}
+        </ul>
+        <input type="submit" value="Submit">
+    </form>
+    <!-- {% include 'footer.html' %} -->
+</body>
+</html>

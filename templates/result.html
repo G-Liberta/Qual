@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Result</title>
+    <style>
+        /* Center the result content */
+        body {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Quiz Result</h1>
+    <p>Your quiz result is:</p>
+    <p>Total questions: {{ total_questions }}</p>
+    <p>Correct answers: {{ correct_answers }}</p>
+    <p>Incorrect answers: {{ incorrect_answers }}</p>
+    <a href="/">Go back to home</a>
+    {% include 'footer.html' %}
+</body>
+</html>

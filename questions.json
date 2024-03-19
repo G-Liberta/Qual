@@ -1,0 +1,102 @@
+[
+    {
+        "question": "What is the purpose of software testing?",
+        "options": [
+            "To ensure the software works on all operating systems",
+            "To find bugs and errors in the software",
+            "To improve the performance of the software",
+            "To beautify the user interface of the software"
+        ],
+        "correct_answer": "To find bugs and errors in the software"
+    },
+    {
+        "question": "What is regression testing?",
+        "options": [
+            "Testing the software after making changes to ensure that existing functionalities still work",
+            "Testing the software for the first time",
+            "Testing the software with a large number of users",
+            "Testing the software without documentation"
+        ],
+        "correct_answer": "Testing the software after making changes to ensure that existing functionalities still work"
+    },
+    {
+        "question": "What is unit testing?",
+        "options": [
+            "Testing individual units or components of the software in isolation",
+            "Testing the software with real-world scenarios",
+            "Testing the software for performance",
+            "Testing the software without any documentation"
+        ],
+        "correct_answer": "Testing individual units or components of the software in isolation"
+    },
+    {
+        "question": "What is the purpose of black-box testing?",
+        "options": [
+            "To test the internal structure, design, and implementation of the software",
+            "To test the functionality of the software without knowing its internal structure",
+            "To test the software in a controlled environment",
+            "To test the software using automated scripts"
+        ],
+        "correct_answer": "To test the functionality of the software without knowing its internal structure"
+    },
+    {
+        "question": "What is load testing?",
+        "options": [
+            "Testing the software with multiple users to assess its performance under high load",
+            "Testing the software with different operating systems",
+            "Testing the software for security vulnerabilities",
+            "Testing the software without any documentation"
+        ],
+        "correct_answer": "Testing the software with multiple users to assess its performance under high load"
+    },
+    {
+        "question": "What is a test case?",
+        "options": [
+            "A document that outlines the entire testing process",
+            "A set of conditions or variables under which a tester will determine whether an application, software system, or one of its features is working as it was originally established",
+            "A tool used for automating testing processes",
+            "A type of software used exclusively for testing"
+        ],
+        "correct_answer": "A set of conditions or variables under which a tester will determine whether an application, software system, or one of its features is working as it was originally established"
+    },
+    {
+        "question": "What is the purpose of exploratory testing?",
+        "options": [
+            "To test software functionalities based on test cases developed in advance",
+            "To test the software without any planning or documentation",
+            "To test the software using predefined scenarios",
+            "To test the software with multiple users"
+        ],
+        "correct_answer": "To test the software without any planning or documentation"
+    },
+    {
+        "question": "What is a test plan?",
+        "options": [
+            "A document that outlines the testing strategy for a software project",
+            "A document that describes the functionality of the software",
+            "A document that lists all the bugs found during testing",
+            "A document that specifies the hardware requirements for the software"
+        ],
+        "correct_answer": "A document that outlines the testing strategy for a software project"
+    },
+    {
+        "question": "What is the difference between verification and validation in software testing?",
+        "options": [
+            "Verification ensures that the software is built right, while validation ensures that the right software is built",
+            "Verification ensures that the software meets the specified requirements, while validation ensures that the software works as expected in its intended environment",
+            "Verification ensures that the software works on all operating systems, while validation ensures that the software works on different devices",
+            "Verification ensures that the software is secure, while validation ensures that the software is user-friendly"
+        ],
+        "correct_answer": "Verification ensures that the software meets the specified requirements, while validation ensures that the software works as expected in its intended environment"
+    },
+    {
+        "question": "What is the purpose of stress testing?",
+        "options": [
+            "To test the software with multiple users to assess its performance under high load",
+            "To test the software with different operating systems",
+            "To test the software for security vulnerabilities",
+            "To test the software without any documentation"
+        ],
+        "correct_answer": "To test the software beyond its normal operational capacity to assess its stability and robustness under extreme conditions"
+    }
+]
